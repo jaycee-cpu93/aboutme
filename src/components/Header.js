@@ -46,7 +46,7 @@ const Header = () => {
             return (
               <li
                 className={`list-none mx-5 p-1 ${
-                  item.key === pathname && "bg-white text-black rounded-sm"
+                  item.key === pathname && "bg-white text-black rounded-md"
                 }`}
               >
                 <Link to={item.key}>{item.title}</Link>
