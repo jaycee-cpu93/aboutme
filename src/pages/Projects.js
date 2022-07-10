@@ -10,10 +10,6 @@ const Projects = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
-
-  const routeChange = (link) => {
-    window.location.href = `${link}`;
-  };
   return (
     <Layout>
       <div className="mt-20">
@@ -62,9 +58,10 @@ const Projects = () => {
                     </h1>
                     <button
                       className={`border-2 border-white rounded text-white hover:bg-green-500 py-2 px-5`}
-                      onClick={() => routeChange(project.website)}
                     >
-                      DEMO
+                      <a target={`_blank`} href={project.website}>
+                        DEMO
+                      </a>
                     </button>
                   </div>
                 </div>

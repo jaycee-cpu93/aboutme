@@ -16,10 +16,10 @@ const Header = () => {
   const pathname = window.location.pathname;
 
   const menuItems = [
-    { title: "Home", key: "/" },
-    { title: "Projects", key: "/projects" },
-    { title: "Courses", key: "/courses" },
-    { title: "Contact", key: "/contact" },
+    { id: 1, title: "Home", key: "/" },
+    { id: 2, title: "Projects", key: "/projects" },
+    { id: 3, title: "Courses", key: "/courses" },
+    { id: 4, title: "Contact", key: "/contact" },
   ];
   return (
     <div className="text-white font-merri fixed top-0 right-0 left-0 z-50">
@@ -45,6 +45,7 @@ const Header = () => {
           {menuItems.map((item) => {
             return (
               <li
+                key={item.id}
                 className={`list-none mx-5 p-1 ${
                   item.key === pathname && "bg-white text-black rounded-md"
                 }`}
@@ -61,6 +62,7 @@ const Header = () => {
           {menuItems.map((item) => {
             return (
               <li
+                key={item.id}
                 className={`list-none w-full p-1 my-2 ${
                   item.key === pathname && "bg-white text-black rounded-md"
                 }`}
