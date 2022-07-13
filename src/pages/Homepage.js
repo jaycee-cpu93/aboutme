@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { FaCss3, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaDownload} from "react-icons/fa";
 import Layout from "../components/Layout";
 import AOS from "aos";
 AOS.init({
@@ -175,6 +175,15 @@ const Homepage = () => {
             </h1>
           </div>
         </div>
+        {/* a div to show a download button for resume */}
+        <div className="my-10 bg-primary flex justify-center items-center p-16">
+          <a href="assets/Resume-Tolorunju-Tayo_J.pdf" download>
+              <div className="flex justify-center items-center flex-row bg-theme rounded-lg p-6 hover:text-primary text-white">
+                  <FaDownload  size={25} className=""/>
+                  <h2 className=" ml-3 font-bold text-2xl" >Download my Resume</h2>
+              </div>
+            </a>
+          </div>
       </div>
     </Layout>
   );
