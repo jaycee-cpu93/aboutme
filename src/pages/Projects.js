@@ -35,10 +35,10 @@ const Projects = () => {
           </h1>
         </div>
         <div className="font-bold text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-5">
-          <h1 className="text-8xl md:text-3xl" data-aos="slide-right">
+          <h1 className="text-8xl md:text-2xl" data-aos="slide-right">
             THE GAME IS ...
           </h1>
-          <h1 className="text-8xl md:text-3xl" data-aos="slide-left">
+          <h1 className="text-8xl md:text-2xl" data-aos="slide-left">
             CONSISTANCY
           </h1>
         </div>

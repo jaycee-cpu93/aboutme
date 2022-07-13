@@ -9,10 +9,10 @@ const projectData = [
   },
   {
     id: 2,
-    title: "Another one",
-    image: "assets/deydamPage.png",
-    description: "A social media streaming platform built with react, tailwind",
-    website: "http://www.google.com",
+    title: "Book guide",
+    image: "assets/great_books_homepage.png",
+    description: "A book guide built with react, tailwind",
+    website: "https://jaycee-cpu93.github.io/book_guide/index.html",
     color: "blue",
   },
   {

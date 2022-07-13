@@ -9,7 +9,7 @@ function Layout({ children }) {
   return (
     <div>
       <Header />
-      <div className="content font-merri">{children}</div>
+      <div className="content font-merri overflow-x-hidden">{children}</div>
       {/* when adding a componenet to the same componet
        */}
       <Footer />

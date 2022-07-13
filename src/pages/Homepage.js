@@ -16,7 +16,7 @@ const Homepage = () => {
       <div>
         {/* introduction section */}
         <div className="h-screen bg-theme">
-          <div className="grid md:grid-cols-1 grid-cols-2 h-screen items-center border-4 md:border-0 border-white transform rotate-12 md:rotate-0 mx-10 z-10 bg-theme">
+          <div className="grid md:grid-cols-1 grid-cols-2 h-screen md:h-5/6 items-center border-4 md:border-0 border-white transform rotate-12 md:rotate-0 mx-10 z-10 bg-theme">
             <div className="h-1/2">
               <lottie-player
                 src="https://assets6.lottiefiles.com/packages/lf20_gnb0jsok.json"
@@ -118,27 +118,25 @@ const Homepage = () => {
             </div>
             <div className="grid grid-cols-3 p-5">
               <div>
-                <h1 className="text-xl font-bold">FRONT END</h1>
+                <h1 className="text-xl font-bold md:text-sm">FRONT END</h1>
                 <hr />
-                <p className="font-semibold mt-2">HTML</p>
-                <p className="font-semibold mt-2">CSS</p>
-                <p className="font-semibold mt-2">JavaScript</p>
-                <p className="font-semibold mt-2">React</p>
-                <p className="font-semibold mt-2">Redux(in view)</p>
+                <p className="mt-2">HTML</p>
+                <p className="mt-2">CSS</p>
+                <p className="mt-2">JavaScript</p>
+                <p className="mt-2">React</p>
+                <p className="mt-2">Redux(in view)</p>
               </div>
-
               <div className="text-center">
-                <h1 className="text-xl font-bold">UI UX</h1>
+                <h1 className="text-xl font-bold md:text-sm">UI UX</h1>
                 <hr />
-                <p className="font-semibold mt-2">BootStrap</p>
-                <p className="font-semibold mt-2">Tailwind CSS</p>
-                <p className="font-semibold mt-2">Material UI(in view)</p>
+                <p className="mt-2">BootStrap</p>
+                <p className="mt-2">Tailwind CSS</p>
+                <p className="mt-2">Material UI(in view)</p>
               </div>
-
               <div className="text-right">
-                <h1 className="text-xl font-bold">BACK-END</h1>
+                <h1 className="text-xl font-bold md:text-sm">BACK-END</h1>
                 <hr />
-                <p className="font-semibold mt-2">Python(in view)</p>
+                <p className="mt-2">Python(in view)</p>
               </div>
             </div>
           </div>
@@ -150,7 +148,7 @@ const Homepage = () => {
             who is TAYO JAMES
           </h1>
         </div>
-        <div className="h-screen relative text-gray-800">
+        <div className="h-screen md:h-96 relative text-gray-800">
           <div className="h-full">
             <lottie-player
               src="https://assets6.lottiefiles.com/packages/lf20_ivbxluat.json"
@@ -166,14 +164,12 @@ const Homepage = () => {
               <hr />
               <pre className="text-xl md:text-sm my-5 font-merri font-semibold">
                 {JSON.stringify(
-                  {
-                    name: "Tolorunju Tayo James",
+                  {name: "Tolorunju Tayo James",
                     age: null,
                     gender: "Male",
-                    country: "Nigeria",
-                  },
-                  null,
-                  2
+                    country: "Nigeria",},
+                    null,2
+                    
                 )}
               </pre>
             </h1>
