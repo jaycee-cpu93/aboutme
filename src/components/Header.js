@@ -61,14 +61,9 @@ const Header = () => {
         >
           {menuItems.map((item) => {
             return (
-              <li
-                key={item.id}
-                className={`list-none w-full p-1 my-2 ${
-                  item.key === pathname && "bg-white text-black rounded-md"
-                }`}
-              >
-                <Link to={item.key}>{item.title}</Link>
-              </li>
+              <nav key={item.id} className={`list-none w-full p-1 my-2 ${item.key === pathname && "bg-white text-black rounded-md"}`}>
+                <Link to={item.key}><li>{item.title}</li></Link>
+              </nav>
             );
           })}
         </div>

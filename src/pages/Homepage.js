@@ -178,10 +178,10 @@ const Homepage = () => {
         {/* a div to show a download button for resume */}
         <div className="my-10 bg-primary flex justify-center items-center p-16">
           <a href="assets/Resume-Tolorunju-Tayo_J.pdf" download>
-              <div className="flex justify-center items-center flex-row bg-theme rounded-lg p-6 hover:text-primary text-white">
-                  <FaDownload  size={25} className=""/>
-                  <h2 className=" ml-3 font-bold text-2xl" >Download my Resume</h2>
-              </div>
+              <button className="flex justify-center items-center flex-row bg-theme rounded-lg p-6 hover:text-primary text-white">
+                  <FaDownload  size={25}/>
+                  <h2 className="ml-3 font-bold text-2xl md:text-xl" >Download Resume</h2>
+              </button>
             </a>
           </div>
       </div>
