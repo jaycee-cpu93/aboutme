@@ -177,7 +177,7 @@ const Homepage = () => {
         </div>
         {/* a div to show a download button for resume */}
         <div className="my-10 bg-primary flex justify-center items-center p-16">
-          <a href="assets/Resume-Tolorunju-Tayo_J.pdf" download>
+          <a href="https://docs.google.com/document/d/1N-D9Q94ZYFnn9b8PyaUXGsZSoGiMZWkcTCFLVav4Na4/edit?pli=1">
               <button className="flex justify-center items-center flex-row bg-theme rounded-lg md:p-4 p-6 hover:text-primary text-white">
                   <FaDownload className="md:text-sm"/>
                   <h2 className="ml-3 font-bold text-2xl md:text-xs" >Download Resume</h2>
