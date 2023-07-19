@@ -124,19 +124,19 @@ const Homepage = () => {
                 <p className="mt-2">CSS</p>
                 <p className="mt-2">JavaScript</p>
                 <p className="mt-2">React</p>
-                <p className="mt-2">Redux(in view)</p>
+                <p className="mt-2">Redux</p>
               </div>
               <div className="text-center">
                 <h1 className="text-xl font-bold md:text-sm">UI UX</h1>
                 <hr />
                 <p className="mt-2">BootStrap</p>
                 <p className="mt-2">Tailwind CSS</p>
-                <p className="mt-2">Material UI(in view)</p>
+                <p className="mt-2">Material UI</p>
               </div>
               <div className="text-right">
                 <h1 className="text-xl font-bold md:text-sm">BACK-END</h1>
                 <hr />
-                <p className="mt-2">Python(in view)</p>
+                <p className="mt-2 mr-12">Python</p>
               </div>
             </div>
           </div>
@@ -179,7 +179,7 @@ const Homepage = () => {
         <div className="my-10 bg-primary flex justify-center items-center p-16">
           <a href="assets/Resume-Tolorunju-Tayo_J.pdf" download>
               <button className="flex justify-center items-center flex-row bg-theme rounded-lg md:p-4 p-6 hover:text-primary text-white">
-                  <FaDownload className="md:text-xs"/>
+                  <FaDownload className="md:text-sm"/>
                   <h2 className="ml-3 font-bold text-2xl md:text-xs" >Download Resume</h2>
               </button>
             </a>
