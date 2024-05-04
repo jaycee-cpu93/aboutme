@@ -1,11 +1,11 @@
 const projectData = [
   {
     id: 1,
-    title: "Deydam",
-    image: "assets/deydamPage.png",
-    description: "A social media streaming platform built with react, tailwind",
-    website: "http://www.deydams.com",
-    color: "purple",
+    title: "e-commerce-shoe",
+    image: "assets/ecommerce-shoe.png",
+    description: "an ecommerce platform built with react, tailwind",
+    website: "https://e-commerce-shoe-git-main-mrjaycees-projects.vercel.app/",
+    color: "yellow",
   },
   {
     id: 2,
@@ -22,14 +22,6 @@ const projectData = [
     description: "loop studio landing page",
     website: "https://jaycee-cpu93.github.io/loopstudio/",
     color: "#CF47E9"
-  },
-  {
-    id: 4,
-    title: "techtime",
-    image: "assets/techtime-page.png",
-    description: "tech time landing page",
-    website: "https://sparkling-truffle-fee81a.netlify.app/",
-    color: "blue"
   },
 ];
 
