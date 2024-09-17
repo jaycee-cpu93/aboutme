@@ -9,6 +9,14 @@ const projectData = [
   },
   {
     id: 2,
+    title: "scissor-url-shortener",
+    image: "assets/url-shortener-sc.png",
+    description: "a url shortener website",
+    website: "https://scissor-app-project.netlify.app/",
+    color: "blue",
+  },
+  {
+    id: 3,
     title: "SunnySide",
     image: "assets/sunnyside-page.png",
     description: "Landing page of sunnyside",
@@ -16,7 +24,7 @@ const projectData = [
     color: "skyblue",
   },
   {
-    id: 3,
+    id: 4,
     title: "loopstudio",
     image: "assets/loopstudio-page.png",
     description: "loop studio landing page",

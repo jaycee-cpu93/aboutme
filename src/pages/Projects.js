@@ -57,7 +57,10 @@ const Projects = () => {
                       {project.title}
                     </h1>
                     <button
-                      className={`border-2 border-white rounded text-white hover:bg-green-500 py-2 px-5`}
+                      className="border-2 border-white rounded text-white py-2 px-5"
+                      style={{ backgroundColor: project.color }}
+                      onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = project.color)}
+                      onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "transparent")}
                     >
                       <a target={`_blank`} href={project.website}>
                         DEMO
