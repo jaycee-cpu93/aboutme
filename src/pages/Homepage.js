@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { FaCss3, FaHtml5, FaJsSquare, FaReact, FaDownload} from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import Layout from "../components/Layout";
 import AOS from "aos";
 AOS.init({
@@ -56,6 +57,11 @@ const Homepage = () => {
               size={180}
               color="#F7E118"
               className="w-full text-center mt-20"
+            />
+            <SiTypescript
+              size={180}
+              color="#007ACC"
+              className="w-full text-center mt-20 animate-pulse" 
             />
             <FaHtml5
               size={180}
@@ -124,7 +130,8 @@ const Homepage = () => {
                 <p className="mt-2">CSS</p>
                 <p className="mt-2">JavaScript</p>
                 <p className="mt-2">React</p>
-                <p className="mt-2">Redux</p>
+                <p className="mt-2">TypeScript</p>
+                <p className="mt-2">NextJs</p>
               </div>
               <div className="text-center">
                 <h1 className="text-xl font-bold md:text-sm">UI UX</h1>

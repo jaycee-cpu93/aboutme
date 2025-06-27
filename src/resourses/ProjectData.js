@@ -9,27 +9,27 @@ const projectData = [
   },
   {
     id: 2,
+    title: "Ecommerce General store",
+    image: "assets/ecommerce-general-store.png",
+    description: "an ecommerce platform built with React, tailwind & TypeScript",
+    website: "https://ecommerce-platform-eosin.vercel.app/",
+    color: "blue",
+  },
+  {
+    id: 3,
+    title: "educational website",
+    image: "assets/tech-time-page.png",
+    description: "an educational website built with nextjs",
+    website: "https://tech-time-landing-page-tau.vercel.app/ ",
+    color: "blue",
+  },
+  {
+    id: 4,
     title: "scissor-url-shortener",
     image: "assets/url-shortener-sc.png",
     description: "a url shortener website",
     website: "https://scissor-app-project.netlify.app/",
     color: "blue",
-  },
-  {
-    id: 3,
-    title: "SunnySide",
-    image: "assets/sunnyside-page.png",
-    description: "Landing page of sunnyside",
-    website: "https://jaycee-cpu93.github.io/Sunnyside/",
-    color: "skyblue",
-  },
-  {
-    id: 4,
-    title: "loopstudio",
-    image: "assets/loopstudio-page.png",
-    description: "loop studio landing page",
-    website: "https://jaycee-cpu93.github.io/loopstudio/",
-    color: "#CF47E9"
   },
 ];
 
